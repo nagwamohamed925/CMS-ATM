@@ -53,7 +53,9 @@
     <string name="hello">مرحبا بك مجددا</string>
 
     <string name="register">قم بتسجيل دخولك وبدا عملك اليوم ونتمني لكيوم ملئ بالسعاده والحيوية</string>
+    <string name="changetime">تغير الموعد</string>
 
+    <string name="explain">فرع المنياشارع الحريه الكورنيش مبني الوحده المحليه</string>
 
 
 </resources>
