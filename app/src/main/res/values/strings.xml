@@ -56,6 +56,10 @@
     <string name="changetime">تغير الموعد</string>
 
     <string name="explain">فرع المنياشارع الحريه الكورنيش مبني الوحده المحليه</string>
+    <string name="can102">CAN102</string>
+    <string name="minit12">12 دقيقه</string>
+    <string name="minit15">15 دقيقه</string>
+    <string name="minit20">20 دقيقه</string>
 
 
 </resources>
