@@ -47,6 +47,7 @@
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
@@ -67,6 +68,7 @@
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
@@ -87,6 +89,7 @@
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
@@ -112,6 +115,7 @@
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:src="@drawable/back" />
 
                         <TextView
@@ -146,6 +150,7 @@
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
 
