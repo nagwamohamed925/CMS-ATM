@@ -35,51 +35,62 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center|right">
+                        android:gravity="center|end">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:textColor="@color/black"
-                            android:gravity="center|right"
-                            android:text="12 دقيقه"/>
+                            android:gravity="center|end"
+                            android:text="@string/minit12"
+                            android:textColor="@color/black" />
+
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
-                            android:gravity="center|right"
+                            android:contentDescription="@string/todo"
+                            android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center|right">
+                        android:gravity="center">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:textColor="@color/black"
-                            android:gravity="center|right"
-                            android:text="15 دقيقه"/>
+                            android:gravity="center|end"
+                            android:text="@string/minit15"
+                            android:textColor="@color/black" />
+
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
-                            android:gravity="center|right"
+                            android:contentDescription="@string/todo"
+                            android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center|right">
+                        android:gravity="center|end">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:textColor="@color/black"
-                            android:gravity="center|right"
-                            android:text="20 دقيقه"/>
+                            android:gravity="center|end"
+                            android:text="@string/minit20"
+                            android:textColor="@color/black" />
+
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
-                            android:gravity="center|right"
+                            android:contentDescription="@string/todo"
+                            android:gravity="center|end"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
                 </LinearLayout>
@@ -95,22 +106,24 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
+
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center|right">
+                        android:gravity="center|end">
 
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight=".5"
-                            android:gravity="left|center">
+                            android:gravity="center|start">
 
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/back" />
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/back" />
 
                         </LinearLayout>
 
@@ -118,15 +131,17 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:gravity="left|center">
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:textColor="@color/black"
-                            android:gravity="center|right"
-                            android:text="03:60"/>
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/time"
+                                android:textColor="@color/black" />
                         </LinearLayout>
+
                         <ProgressBar
                             android:id="@+id/progressBar"
                             style="?android:attr/progressBarStyle"
@@ -140,21 +155,25 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:background="@color/gray_txt_body" />
+
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center|right">
+                        android:gravity="center|end">
+
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:textColor="@color/black"
-                            android:gravity="center|right"
-                            android:text="CAN102"/>
+                            android:gravity="center"
+                            android:text="@string/can102"
+                            android:textColor="@color/black" />
+
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:contentDescription="@string/todo"
                             android:src="@drawable/pin_orange" />
                     </LinearLayout>
 
@@ -175,23 +194,26 @@
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:gravity="right|center"
-                    android:text="فرع المنياشارع الحريه الكورنيش مبني الوحده المحليه "/>
+                    android:gravity="center|end"
+                    android:text="@string/explain"
+                    android:textColor="@color/black" />
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".2"
-                    android:gravity="right|center">
+                    android:gravity="center|end">
 
                     <ImageView
 
                         android:layout_width="18dp"
                         android:layout_height="18dp"
+                        android:contentDescription="@string/todo"
                         android:src="@drawable/pin_orange" />
                 </LinearLayout>
 

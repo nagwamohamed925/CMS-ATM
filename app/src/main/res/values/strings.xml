@@ -61,6 +61,8 @@
     <string name="minit15">15 دقيقه</string>
     <string name="minit20">20 دقيقه</string>
     <string name="receivetask">استقبال المهمه</string>
+    <string name="starttask">ابدا المهمه الان</string>
+    <string name="time">03:60</string>
 
 
 </resources>
